@@ -19,12 +19,12 @@ const menuCategories: MenuCategory[] = [
     href: "about"
   },
   {
-    name: "Mujeres",
-    href: "woman"
+    name: "Proyectos",
+    href: "proyects"
   },
   {
-    name: "Niños",
-    href: "kids"
+    name: "Contactame",
+    href: "contactame"
   }
 ]
 
