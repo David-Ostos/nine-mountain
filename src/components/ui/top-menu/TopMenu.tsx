@@ -1,4 +1,4 @@
-import {titleFont} from "@/config/fonts";
+import {playfair} from "@/config/fonts";
 import Link from "next/link";
 import { IoCartOutline, IoSearchOutline } from "react-icons/io5";
 
@@ -15,8 +15,8 @@ interface MenuItems{
 
 const menuCategories: MenuCategory[] = [
   {
-    name: "Hombres",
-    href: "men"
+    name: "Sobre mí",
+    href: "about"
   },
   {
     name: "Mujeres",
@@ -48,11 +48,11 @@ const menuItems: MenuItems[] = [
 
 export const TopMenu = () => {
   return (
-    <nav className="fixed z-50  bg-gray-200 border-b rounded-b-md flex  px-5 justify-between items-center w-full">
+    <nav className="fixed z-50 text-white rounded-b-md flex  px-5 justify-between items-center w-full">
       {/* Logo */}
       <div>
         <Link href="/">
-          <span className={`${titleFont.className} antialiased font-bold`}>
+          <span className={`${playfair.className} antialiased font-bold`}>
             Nine
           </span>
           <span>Mountain</span>
